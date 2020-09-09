@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet">
+        <!-- Fonts CSS-->
+        <link rel="stylesheet" href="css/heading.css">
+        <link rel="stylesheet" href="css/body.css">
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+            <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">My Cabin</a>
+                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Junior WEB developer</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="pre-wrap masthead-subheading font-weight-light mb-0">Geospatial Engineer - Web Developer - GIS</p>
+            </div>
+        </header>
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Items-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="data:image/png;base64,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" alt="Geo Web Map"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/smartbrain1.png" alt="Smart brain"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/pokemon.jpg" alt="Pokecards"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/todolist.png" alt="Todo list 2.0"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/noted.png" alt="Note keeper"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div><img class="img-fluid" src="assets/img/portfolio/drum kit.png" alt="Drum kit"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Modal-->
+        <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Geo Web Map</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="data:image/png;base64,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" alt="Geo Web Map"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">A mobile friendly responsive web-page for spatial data management
+[Front-end] using React.js from scratch <a href="https://hudsonprem.github.io/giswebpage/">link</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Smart brain</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/smartbrain1.png" alt="Smart brain"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">This smart brain detect face from the given image URL which contains faces <a href="https://facial-smartbrain.herokuapp.com/"> link</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Pokecards</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/pokemon.jpg" alt="Pokecards"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Set of pokemon cards <a href="https://hudsonprem.github.io/pokecards/">link</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Todo list 2.0</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/todolist.png" alt="Todo list 2.0"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Advances Todo list where you can create multiple list and these are stored online <a href="https://murmuring-bayou-98728.herokuapp.com/">link</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Note keeper</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/noted.png" alt="Note keeper"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Just a clone of note keeper <a href="https://hudsonprem.github.io/Notekeeper/">link</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fas fa-times"></i></span></button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Drum kit</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/drum kit.png" alt="Drum kit"/>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">Just a drum kit <a href="https://hudsonprem.github.io/drum_kit/">link</a></p>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead">A Geo-spatial Engineer having 1.5+ years of experience in Geo-spatial Technology. Now A Web Developer  with Python, JavaScript JQuery, Bootstrap, Mongoose, MongoDB, Express.js, React.js, Node.js</p>
+                    </div>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead">Looking for a position of Junior Web Developer having good knowledge about both Front end and back end web [MERN stack] development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <div class="text-center">
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
+                </div>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="text-muted">Phone</div>
+                            <div class="lead font-weight-bold">9543613436</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:hudsonprem97@gmail.com">hudsonprem97@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">LOCATION</h4>
+                        <p class="pre-wrap lead mb-0">No 57 Raja Street,
+Subramaniyapuram,Trichy,
+ Tamil nadu 620020,
+India </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/www.linkedin.com/in/hudson-premkumar"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="mb-4"></h4>
+                        <p class="pre-wrap lead mb-0"> </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small class="pre-wrap">Copyright ©  2020 </small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
